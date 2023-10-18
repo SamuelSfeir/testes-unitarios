@@ -12,14 +12,18 @@
 */
 
 const average = (array) => {
-  if (!Array.isArray(array) || array.length === 0) {
+  if (!Array.isArray(array) || array.length === 0 || array.some((item) => typeof item !== 'number')) {
     return undefined;
-  }
+  } // Verifica se é array, não é vazio e se algum item do array não é typeof number
 
-  const soma = array.reduce((acumulador, valor) => acumulador + valor, 0); // Acumula e soma cada iteração //
-  const media = soma / array.length; // Divide soma pelo número de elementos //
+  const soma = array.reduce((acumulador, valor) => acumulador + valor, 0); // Acumula e soma cada iteração
+  const media = soma / array.length; // Divide soma pelo número de elementos 
 
-  return media;
+  const mediaArredondada = Math.round(media); // Arredonda o resultado 
+
+  return mediaArredondada;
 };
+
+console.log(average([-11, 2, 5]));
 
 module.exports = average;
