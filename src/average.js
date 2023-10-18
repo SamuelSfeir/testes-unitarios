@@ -12,7 +12,7 @@
 */
 
 const average = (array) => {
-  if (!Array.isArray(array) || array.length === 0 || array.some((item) => typeof item !== 'number')) {
+if (!Array.isArray(array) || array.length === 0 || array.some((item) => typeof item !== 'number')) {
     return undefined;
   } // Verifica se é array, não é vazio e se algum item do array não é typeof number
 
