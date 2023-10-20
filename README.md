@@ -1,10 +1,18 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto de Testes Unitários com Jest
+
+Este é um projeto de exemplo para demonstrar a configuração e utilização do framework de testes Jest para testes unitários em JavaScript.
+
+## Descrição
+
+O objetivo deste projeto é fornecer uma estrutura de exemplo para escrever testes unitários robustos em JavaScript usando o Jest. O Jest é uma das ferramentas mais populares para testes em JavaScript, e ele oferece uma ampla gama de recursos para facilitar o processo de teste.
+
+## Estrutura do Projeto
+A estrutura de diretórios do projeto é organizada da seguinte forma:
+
+- `src/`: Contém o código-fonte do projeto que você deseja testar.
+- `tests/`: Contém os arquivos de teste escritos com Jest.
+
+Sinta-se à vontade para personalizar a estrutura do projeto de acordo com as necessidades do seu projeto.
+
+## Contribuindo
+Se você deseja contribuir para este projeto, sinta-se à vontade para criar uma "pull request" ou abrir uma "issue" relatando problemas ou sugestões.
