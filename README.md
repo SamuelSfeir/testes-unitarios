@@ -1,5 +1,7 @@
 # Projeto de Testes Unitários com Jest
 
+Olá! Bem vindo ao meu repositório.
+
 Este é um projeto de exemplo para demonstrar a configuração e utilização do framework de testes Jest para testes unitários em JavaScript.
 
 ## Descrição
